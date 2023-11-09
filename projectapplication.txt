@@ -1,0 +1,14 @@
+package com.anudip.TrainTicketBookingSystemProject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TrainTicketBookingSystemProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TrainTicketBookingSystemProjectApplication.class, args);
+		System.out.println("Welcome to Train Ticket Booking System");
+	}
+
+}
